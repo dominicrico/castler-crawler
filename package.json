@@ -1,0 +1,17 @@
+{
+  "name": "castler",
+  "version": "1.0.0",
+  "description": "Backend/Crawler for alle-burgen.de to build the basic database for castler",
+  "main": "main.js",
+  "author": "Dominic Rico Gómez <hello@coderocket.me>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "async": "^2.6.1",
+    "cheerio": "^1.0.0-rc.2",
+    "gridfs-stream": "^1.1.1",
+    "mongoose": "^5.2.4",
+    "ora": "^3.0.0",
+    "request": "^2.87.0"
+  }
+}
